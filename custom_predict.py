@@ -199,18 +199,18 @@ def convert_to_apple(model_name, image_name):
 
 
 if __name__ == '__main__':
-    model_name = 'light_2x'
+    model_name = 'real_4x_L'
     test_image = 'g1'
 
-    # predict(
-    #     model_name,
-    #     test_image
-    # )
-
-    convert_to_apple(
+    predict(
         model_name,
         test_image
     )
+
+    # convert_to_apple(
+    #     model_name,
+    #     test_image
+    # )
 
 
 # %%
