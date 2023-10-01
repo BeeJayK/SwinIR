@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+/build/
+/dist/
+/eggs/
+/*-eggs/
+.eggs/
+/sdist/
+/wheels/
+/*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+.DS_Store
+
+/model_zoo/*
+!/model_zoo/README.md
+/image_zoo/*
